@@ -1,4 +1,3 @@
-[HKC 24 Sep 2025] 
 # Somtam Marketing Page 
 This page for now is deployed on Vercel (vercel.com). Will be redeployed once hosting platform is sourced.
 
