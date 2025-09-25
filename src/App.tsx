@@ -10,20 +10,20 @@ export default function App() {
     return (
         <div className="flex min-h-screen flex-col items-center bg-[#FDFDFC] text-[#1b1b18] lg:justify-center dark:bg-[#0a0a0a] dark:text-[#EDEDEC]">
             <header className="w-full bg-[#FDFDFC] dark:bg-[#0a0a0a] py-4">
-                <div className="max-w-[1200px] mx-auto px-6 flex justify-between items-center">
+                <div className="max-w-[1200px] mx-auto px-4 sm:px-6 flex flex-wrap items-center justify-between gap-2">
                     <div className="flex items-center space-x-3">
                         <img 
                             src="/images/somtam-logo.png" 
                             alt="SomtamCoin Logo" 
                             className="h-8 w-8"
                         />
-                        <span className="text-3xl font-semibold">SomtamCoin</span>
+                        <span className="text-2xl sm:text-3xl font-semibold">SomtamCoin</span>
                     </div>
                     <a 
                         href="https://app.somtam.xyz" 
-                        className="bg-[#1b1b18] text-white dark:bg-[#EDEDEC] dark:text-[#0a0a0a] px-4 py-2 rounded-lg font-medium text-base hover:bg-opacity-90 transition duration-200 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.06)]"
+                        className="bg-[#1b1b18] text-white dark:bg-[#EDEDEC] dark:text-[#0a0a0a] px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg font-medium text-sm sm:text-base hover:bg-opacity-90 transition duration-200 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.06)]"
                     >
-                        Get Started with SomtamCoin
+                        Launch dApp
                     </a>
                 </div>
             </header>
