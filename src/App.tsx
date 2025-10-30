@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Outlet, Link } from 'react-router-dom';
 
 export default function App() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -99,6 +100,18 @@ export default function App() {
                         </section>
                     </div>
                 </main>
+                <footer className="w-full py-6 mt-12 text-center text-sm text-[#706f6c] dark:text-[#A1A09A] border-t border-[#e3e3e0] dark:border-[#3E3E3A]">
+                    <p>© {new Date().getFullYear()} SomtamCoin. All rights reserved. | 
+                    <a 
+                        href="/privacy" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-[#1b1b18] dark:text-[#EDEDEC] hover:underline ml-1"
+                    >
+                        Privacy Policy
+                    </a>
+                    </p>
+                </footer>
             </div>
         </div>
     );
