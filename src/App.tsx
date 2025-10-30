@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Outlet, Link } from 'react-router-dom';
 
 export default function App() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
