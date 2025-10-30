@@ -17,7 +17,7 @@ export default function Privacy() {
                         <p className="leading-relaxed">
                             This is an open source app developed by Somtam Labs. The source code is available on{" "}
                             <a
-                                href="https://github.com/yourusername/somtamcoin"
+                                href="https://github.com/somtam-labs/somtam-mkt"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
