@@ -1,29 +1,8 @@
 {
-<<<<<<< HEAD
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/privacy",
-      "dest": "/index.html",
-      "headers": {
-        "Cache-Control": "s-maxage=0"
-      }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-=======
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
->>>>>>> 2da42be (Added config file for Vercel)
     }
   ]
 }
